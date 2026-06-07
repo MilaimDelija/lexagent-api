@@ -1,6 +1,6 @@
-# LexAgent Legal Brain
+# LexAgent Compliance Engine
 
-FastAPI backend — AI legal risk classifier for autonomous agents.
+FastAPI backend — AI compliance risk classifier for autonomous agents.
 
 ## Endpoints
 
