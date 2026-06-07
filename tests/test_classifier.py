@@ -1,5 +1,5 @@
 """
-LexAgent Legal Brain — Classifier Tests
+LexAgent Compliance Engine — Classifier Tests
 """
 import sys
 sys.path.insert(0, 'src')
@@ -114,7 +114,7 @@ tests = [
 ]
 
 print("=" * 60)
-print("LexAgent Legal Brain — Classifier Test Suite")
+print("LexAgent Compliance Engine — Classifier Test Suite")
 print("=" * 60)
 print()
 
