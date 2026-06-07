@@ -1,5 +1,5 @@
 """
-LexAgent Legal Brain — FastAPI Backend
+LexAgent Compliance Engine — FastAPI Backend
 Endpoints: /risk/check, /events/batch, /agents/status, /reports/generate
 """
 
@@ -23,8 +23,8 @@ from classifier import LegalBrainClassifier, RiskAssessment, RiskLevel
 # ── App ────────────────────────────────────────────────────────────────────────
 
 app = FastAPI(
-    title="LexAgent Legal Brain API",
-    description="AI Compliance Monitor — Real-time legal risk classification for AI agents",
+    title="LexAgent Compliance Engine API",
+    description="AI Compliance Monitor — Real-time compliance classification for AI agents",
     version="0.1.0",
     docs_url="/docs",
     redoc_url="/redoc",
@@ -118,7 +118,7 @@ def _serialize(a: RiskAssessment) -> dict:
 @app.get("/")
 def root():
     return {
-        "service":    "LexAgent Legal Brain",
+        "service":    "LexAgent Compliance Engine",
         "version":    "0.1.0",
         "status":     "operational",
         "frameworks": ["EU_AI_ACT", "GDPR", "NIST_RMF", "ISO_42001", "SOC2", "CCPA"],
