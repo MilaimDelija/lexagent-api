@@ -24,7 +24,7 @@ from classifier import LegalBrainClassifier, RiskAssessment, RiskLevel
 
 app = FastAPI(
     title="LexAgent Legal Brain API",
-    description="AI Compliance Counsel — Real-time legal risk classification for AI agents",
+    description="AI Compliance Monitor — Real-time legal risk classification for AI agents",
     version="0.1.0",
     docs_url="/docs",
     redoc_url="/redoc",
