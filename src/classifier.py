@@ -1,5 +1,5 @@
 """
-LexAgent Legal Brain — Risk Classifier
+LexAgent Compliance Engine — Risk Classifier
 Classifies AI agent actions against global legal frameworks.
 
 Frameworks v0.1: EU AI Act, GDPR, NIST AI RMF 1.1, ISO 42001, SOC2, CCPA
@@ -680,7 +680,7 @@ class LegalBrainClassifier:
 
         recs.append(
             "Consult a qualified attorney for jurisdiction-specific legal advice. "
-            "LexAgent findings are compliance intelligence, not legal opinions."
+            "LexAgent findings are compliance classifications, not professional legal opinions."
         )
 
         return " ".join(recs[:4])
